@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.body {
+  height: 100vh;
+  width: 80vw;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+
+}
+
+.dashboard {
+  border: solid black;
+  margin-top: 100px;
+
+  margin-left: 40px;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  
+  height: 800px;
+  width: 200px;
+  background-color: gray;
+}
+
+.reviews {
+  border: solid black;
+  margin-top: 75px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  height: auto;
+  width: 325px;
+  margin-left: 75px;
+  
+  background-color: gray;
+}
+
+.rating {
+  border: solid black;
+  margin-top: 75px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  height: auto;
+  
+  background-color: gray;
+}
+
+.analysis {
+  border: solid black;
+  margin-top: 75px;
+
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  height: auto;
+  width: 325px;
+  
+  background-color: gray;
+}
+
+.visitors {
+  
+  border: solid black;
+  margin-left: 75px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
+  height: 477px;
+  width: 1000px;
+  
+  
+  
+  background-color: gray;
+} 
