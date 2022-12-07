@@ -1,5 +1,5 @@
 import "./App.css"
-import Header from "./components/Header"
+import Container from "./components/Container"
 import Analysis from "./components/Analysis"
 import Dashboard from "./components/Dashboard"
 import Rating from "./components/Rating"
@@ -11,7 +11,7 @@ function App() {
 
 
     <div className="body">
-      <Header />
+      <Container />
       <Analysis />
       <Dashboard />
       <Rating />

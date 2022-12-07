@@ -3,89 +3,149 @@
   padding: 0;
 }
 
+.container {
+  /* border: solid black;   */
+
+  height: 969px;
+  width: 1669px;
+  background-color: #F7F6F6
+}
 
 .body {
   height: 100vh;
-  width: 80vw;
+  width: 70vw;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 50px;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-
 }
 
 .dashboard {
-  border: solid black;
-  margin-top: 100px;
+  /* border: solid black; */
+  margin-top: 75px;
 
-  margin-left: 40px;
 
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 6;
-  
-  height: 800px;
-  width: 200px;
-  background-color: gray;
+  grid-row-end: 5;
+
+  height: auto;
+  width: auto;
+
+  text-align: center;
+  vertical-align: text-bottom;
+
+  background-color: #DDDDDD;
+}
+
+.dashText  h3 {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 275px;
 }
 
 .reviews {
-  border: solid black;
-  margin-top: 75px;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-
-  height: auto;
-  width: 325px;
-  margin-left: 75px;
-  
-  background-color: gray;
-}
-
-.rating {
-  border: solid black;
+  /* border: solid black; */
   margin-top: 75px;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
 
-  height: auto;
-  
-  background-color: gray;
+  height: 350px;
+  width: auto;
+
+  background-color: #DDDDDD;
 }
 
-.analysis {
-  border: solid black;
+.rating {
+  /* border: solid black; */
   margin-top: 75px;
-
-  grid-column-start: 5;
+  grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
 
-  height: auto;
-  width: 325px;
+  height: 350px;
+  width: auto;
+
+  background-color: #DDDDDD;
+}
+
+.analysis {
+  /* border: solid black; */
+  margin-top: 75px;
+
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  height: 350px;
+  width: auto;
+
+  background-color: #DDDDDD;
+}
+
+.analysisText h2 p{
   
-  background-color: gray;
+  text-align: center;
+
+}
+
+.pp{
+  margin-top: 50px;
 }
 
 .visitors {
-  
-  border: solid black;
-  margin-left: 75px;
-  grid-column-start: 2;
-  grid-column-end: 5;
+  /* border: solid black; */
+  grid-column-start: 3;
+  grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 5;
 
-  height: 477px;
-  width: 1000px;
-  
-  
-  
-  background-color: gray;
-} 
+  height: auto;
+  width: auto;
+
+  background-color: #DDDDDD;
+}
+
+.VisitorsContainer {
+  /* border: solid black; */
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
+  margin: auto;
+  margin-top: 30px;
+
+  height: 275px;
+  width: 700px;
+
+  background-color: #BEBDBD;
+}
+
+h1{
+  margin: 10px;
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+  margin: 10px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+  margin: 10px;
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+  margin: 16px;
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
